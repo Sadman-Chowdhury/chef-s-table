@@ -23,7 +23,7 @@ const Header = () => {
             </div>
         </div>
         {/* banner */}
-        <div className="custom-background-1 space-y-11 text-center px-[150px] py-[100px] rounded-3xl mt-12">
+        <div className="custom-background-1 space-y-11 text-center px-[130px] py-[100px] rounded-3xl mt-12">
             <h1 className="text-[52px] font-bold text-white">Discover an exceptional cooking <br /> class tailored for you!</h1>
             <p className="text-[18px] text-white">Here we have the recipes of healthy dishes that plays a pivotal role in nourishing the body while maintaining energy balance. They serve as the cornerstone of a balanced diet, fostering vitality and supporting overall well-being.</p>
             <div className="flex gap-4 justify-center">

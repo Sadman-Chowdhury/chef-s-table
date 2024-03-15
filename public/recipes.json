@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co/MZVwJSB/Grilled-lemon-Herb-Chicken-17.jpg",
+      "recipe_id": "1",
+      "recipe_name": "Grilled Lemon Herb Chicken",
+      "short_description": "A flavorful and healthy grilled chicken recipe with a zesty lemon herb marinade. You can taste the herbs and grilled meat with this recipe",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushrooms"],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/ssKHmB3/roasted-veggie-quinoa-f-SQ.jpg",
+      "recipe_id": "2",
+      "recipe_name": "Quinoa Salad with Vegetables",
+      "short_description": "A nutritious salad packed with protein-rich quinoa and roasted vegetables, perfect for a light meal or side dish.",
+      "ingredients": ["200 g quinoa", "300 g mixed vegetables", "100 g cherry tomatoes", "50 g feta cheese"],
+      "preparing_time": "25 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/dQ5kxFb/240-F-275327601-XVA6o-Szuc-OFG7-Xd883-TGw-EP97-HO5-CPXZ.jpg",
+      "recipe_id": "3",
+      "recipe_name": "Avocado Toast with Poached Egg",
+      "short_description": "A simple and satisfying breakfast or brunch option featuring creamy avocado and a perfectly poached egg on toasted whole grain bread.",
+      "ingredients": ["2 ripe avocados", "4 slices whole grain bread", "4 eggs", "Salt and pepper to taste"],
+      "preparing_time": "15 min",
+      "calories": "280 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/WH8MD0H/istockphoto-1417561380-612x612.jpg",
+      "recipe_id": "4",
+      "recipe_name": "Vegetarian Chili",
+      "short_description": "A hearty and flavorful chili loaded with beans, vegetables, and spices, perfect for a cozy dinner. Perfect for any vegiterian who love beans.",
+      "ingredients": ["400 g canned black beans", "400 g canned kidney beans", "200 g diced tomatoes", "150 g corn kernels"],
+      "preparing_time": "40 min",
+      "calories": "220 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/ykG6WPH/istockphoto-1128328281-612x612.jpg",
+      "recipe_id": "5",
+      "recipe_name": "Mango Coconut Smoothie Bowl",
+      "short_description": "A refreshing and tropical smoothie bowl made with ripe mango, creamy coconut milk, and nutritious toppings.",
+      "ingredients": ["2 ripe mangoes", "200 ml coconut milk", "50 g granola", "50 g shredded coconut"],
+      "preparing_time": "10 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/ZMKgV9p/hd-aspect-1464200367-delish-grilled-salmon-foil-pack.jpg",
+      "recipe_id": "6",
+      "recipe_name": "Salmon and Asparagus Foil Packets",
+      "short_description": "An easy and delicious dinner option featuring salmon fillets and fresh asparagus cooked in a flavorful herb and lemon marinade.",
+      "ingredients": ["4 salmon fillets", "400 g asparagus spears", "4 cloves garlic, minced", "4 tbsp olive oil"],
+      "preparing_time": "20 min",
+      "calories": "350 calories"
+    }
+  ]
+  
