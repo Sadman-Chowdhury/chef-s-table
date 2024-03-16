@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 const Cook = ({cook, idx, handleCurrentCook}) => {
     const {recipe_name, preparing_time, calories, recipe_id} = cook
     return( 
-            <tr className="bg-[#28282808] space-x-9">
+            <tr className="bg-[#28282808] mt-10 my-4">
                 <h1 className="px-5 text-black font-bold">{idx+1}</h1>
                 <td className="px-4">{recipe_name}</td>
                 <td className="px-4">{preparing_time}</td>

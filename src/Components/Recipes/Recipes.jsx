@@ -34,7 +34,7 @@ const Recipes = () => {
         .then(data => setRecipes(data))
     },[])
     return (
-        <div className="mt-12">
+        <div className="mt-20">
             <h1 className="text-[40px] font-semibold text-center">Our Recipes</h1>
             <p className="text-[#150B2B99] text-center mt-3">Savor the variety in our recipes, from Grilled Lemon Herb Chicken to Mango Coconut Smoothie Bowls. Each dish promises <br /> a fusion of flavor and nutrition, elevating your culinary experience effortlessly.</p>
             <ToastContainer></ToastContainer>
