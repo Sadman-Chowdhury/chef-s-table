@@ -1,6 +1,6 @@
 import React from 'react';
 import Cook from '../Cook/Cook';
-const WantToCook = ({cooks}) => {
+const WantToCook = ({cooks,handleCurrentCook}) => {
     return (
         <div className='border rounded-2xl text-center space-y-4 pt-5'>
             <h2 className='text-2xl font-semibold'>Want to cook: {cooks.length}</h2>
@@ -11,7 +11,7 @@ const WantToCook = ({cooks}) => {
                 </thead>
                 <tbody className='text-[#282828B3]'>
                     {
-                        cooks.map((cook, idx)=><Cook key={idx} cook={cook} idx={idx}></Cook>)
+                        cooks.map((cook, idx)=><Cook key={idx} handleCurrentCook={handleCurrentCook} cook={cook} idx={idx}></Cook>)
                     }
                 </tbody>
             </table>
