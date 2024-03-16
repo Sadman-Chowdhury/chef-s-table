@@ -38,11 +38,11 @@ const Recipes = () => {
             <h1 className="text-[40px] font-semibold text-center">Our Recipes</h1>
             <p className="text-[#150B2B99] text-center mt-3">Savor the variety in our recipes, from Grilled Lemon Herb Chicken to Mango Coconut Smoothie Bowls. Each dish promises <br /> a fusion of flavor and nutrition, elevating your culinary experience effortlessly.</p>
             <ToastContainer></ToastContainer>
-            <div className="flex gap-4">
-                <div className="grid grid-cols-2 gap-4 w-2/3">{
+            <div className="flex gap-4 mt-10">
+                <div className="grid grid-cols-2 gap-4 w-[60%]">{
                 recipes.map(recipe => <Recipe handleWantToCook={handleWantToCook} recipe={recipe} key={recipe.recipe_id}></Recipe>)
                 }</div>
-                <div className="w-1/3"><WantToCook handleCurrentCook={handleCurrentCook} cooks={cooks}></WantToCook><CurrentlyCooking currentlyCooking={currentlyCooking}></CurrentlyCooking></div>
+                <div className="w-[40%]"><WantToCook handleCurrentCook={handleCurrentCook} cooks={cooks}></WantToCook><CurrentlyCooking currentlyCooking={currentlyCooking}></CurrentlyCooking></div>
             </div>
         </div>
     );
