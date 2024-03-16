@@ -7,7 +7,9 @@ function App() {
   return (
     <>
     <Header></Header>
+    <div className='flex'>
     <Recipes></Recipes>
+    </div>
     </>
   )
 }
