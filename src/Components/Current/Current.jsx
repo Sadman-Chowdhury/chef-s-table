@@ -1,4 +1,5 @@
-const Current = ({current, idx, handleCurrentCook}) => {
+import PropTypes from 'prop-types'; 
+const Current = ({current, idx}) => {
     const {recipe_name, preparing_time, calories} = current
     return( 
             <tr className="bg-[#28282808] space-x-9">
@@ -10,4 +11,8 @@ const Current = ({current, idx, handleCurrentCook}) => {
     );
 };
 
+Current.propTypes = {
+    current: PropTypes.object.isRequired,
+    idx: PropTypes.object.isRequired
+}
 export default Current;

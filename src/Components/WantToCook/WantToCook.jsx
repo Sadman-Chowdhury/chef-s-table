@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types'; 
 import Cook from '../Cook/Cook';
 const WantToCook = ({cooks,handleCurrentCook}) => {
     return (
@@ -18,5 +18,10 @@ const WantToCook = ({cooks,handleCurrentCook}) => {
         </div>
     );
 };
+
+WantToCook.propTypes = {
+    cooks: PropTypes.object.isRequired,
+    handleCurrentCook: PropTypes.func.isRequired
+}
 
 export default WantToCook;

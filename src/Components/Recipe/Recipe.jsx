@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types'; 
 import { LuClock4 } from "react-icons/lu";
 import { AiOutlineFire } from "react-icons/ai";
 
-const Recipe = ({recipe, handleWantToCook, handleCurrentCook}) => {
-    const {recipe_image, recipe_id, recipe_name, short_description, ingredients, preparing_time, calories} = recipe
+const Recipe = ({recipe, handleWantToCook}) => {
+    const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe
     return (
         <div>
             <div className="space-y-4 p-6 border rounded-2xl h-full">
@@ -33,5 +34,11 @@ const Recipe = ({recipe, handleWantToCook, handleCurrentCook}) => {
         </div>
     );
 };
+
+Recipe.propTypes = {
+    recipe: PropTypes.object.isRequired,
+    handleWantToCook: PropTypes.func.isRequired
+}
+
 
 export default Recipe;

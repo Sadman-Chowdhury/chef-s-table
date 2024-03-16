@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 import Current from '../Current/Current';
 
 const CurrentlyCooking = ({currentlyCooking}) => {
@@ -20,5 +21,9 @@ const CurrentlyCooking = ({currentlyCooking}) => {
     </div>
   );
 };
+
+CurrentlyCooking.propTypes = {
+    currentlyCooking: PropTypes.object.isRequired
+}
 
 export default CurrentlyCooking;

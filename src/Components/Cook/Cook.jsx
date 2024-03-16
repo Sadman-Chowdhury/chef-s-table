@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 const Cook = ({cook, idx, handleCurrentCook}) => {
     const {recipe_name, preparing_time, calories, recipe_id} = cook
     return( 
@@ -14,5 +15,11 @@ const Cook = ({cook, idx, handleCurrentCook}) => {
         </tr>
     );
 };
+
+Cook.propTypes = {
+    cook: PropTypes.object.isRequired,
+    idx: PropTypes.object.isRequired,
+    handleCurrentCook: PropTypes.func.isRequired
+}
 
 export default Cook;
